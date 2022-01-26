@@ -36,13 +36,20 @@ background-color: black;
     margin-right: 30px;
     z-index: 10;
     cursor:pointer;
+    display: inline;
 }
 .links{
-    float: left;
+    float: right;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: fantasy;
+}
+#writings{
+    font-size: 30px;
+}
+.article:hover{
+    color: red;
 }
